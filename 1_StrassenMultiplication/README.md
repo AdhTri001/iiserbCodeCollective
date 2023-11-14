@@ -1,7 +1,6 @@
 # What is here?
 
 ```tree
-|   Banner.png          Banner that was circulated for advertising talk.
 |   FMMA.pptx           PPT used to present the topic
 |   manim.ipynb         Playground where I created all Manims used for presenting.
 |   README.md           This file u reading.
@@ -16,6 +15,7 @@
 
 # Images for memories
 
+![Banner](imgs/Banner.png)
 ![Pic1](imgs/MailAlgo.jpg)
 ![Pic2](imgs/Matrix.jpg)
 ![Pic3](imgs/Population.jpg)
