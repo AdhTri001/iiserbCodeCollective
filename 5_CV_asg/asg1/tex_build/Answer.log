@@ -1,0 +1,562 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2024.4.12)  12 SEP 2024 23:00
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/adhtr/src/CV_asg/asg1/Answer.tex
+(c:/Users/adhtr/src/CV_asg/asg1/Answer.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/exam\exam.cl
+s
+Document Class: exam 2023/07/09 Version 2.704 by Philip Hirschhorn
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/base\ifthen.
+sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/base\article
+.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/base\size12.
+clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+\@extrawidth=\skip50
+\@rightmargin=\skip51
+\@extrahead=\skip52
+\@extrafoot=\skip53
+\run@exhd=\skip54
+\fp@exhd=\skip55
+\run@exft=\skip56
+\fp@exft=\skip57
+\covrun@exhd=\skip58
+\covfp@exhd=\skip59
+\covrun@exft=\skip60
+\covfp@exft=\skip61
+\c@num@coverpages=\count195
+\c@latest@ques=\count196
+\c@ques@end=\count197
+\c@last@object=\count198
+\c@incmp@ques=\count199
+\c@next@ques=\count266
+\c@next@page=\count267
+\c@tmp@hlfcntr=\count268
+\c@ifpos@cntr=\count269
+\c@question=\count270
+\c@partno=\count271
+\c@subpart=\count272
+\c@subsubpart=\count273
+\c@choice=\count274
+\c@numpoints=\count275
+\c@numbonuspoints=\count276
+\c@pointsof@thisquestion=\count277
+\c@bonuspointsof@thisquestion=\count278
+\c@numquestions=\count279
+\c@numparts=\count280
+\c@numsubparts=\count281
+\c@numsubsubparts=\count282
+\c@Curr@Page=\count283
+\c@@pagepoints=\count284
+\c@@pagebonuspoints=\count285
+\c@pageof@pagepoints=\count286
+\c@pageof@pagebonuspoints=\count287
+\c@latest@points=\count288
+\c@latest@bonuspoints=\count289
+\pageinfo@commands=\toks17
+\temp@toks=\toks18
+\pagepoint@commands=\toks19
+\point@toks=\toks20
+\c@ques@object=\count290
+\marginpointssep=\skip62
+\rightpointsmargin=\skip63
+\choice@toks=\toks21
+\answerlinelength=\skip64
+\answerskip=\skip65
+\answerclearance=\skip66
+\fillinlinelength=\skip67
+\linefillheight=\skip68
+\linefillthickness=\skip69
+\dottedlinefillheight=\skip70
+\gridsize=\skip71
+\gridlinewidth=\skip72
+\minboxheight=\skip73
+\c@@iterator=\count291
+\@cellwidth=\skip74
+\c@tbl@points=\count292
+\c@tbl@bonuspoints=\count293
+\c@pq@index=\count294
+\c@pq@index@pts=\count295
+\c@pq@index@bpts=\count296
+\c@num@cols=\count297
+\c@num@rows=\count298
+\c@current@row=\count299
+\c@cols@done=\count300
+\c@exam@saved@eqnum=\count301
+\exam@box=\box51
+\saved@totalleftmargin=\dimen141
+\@sollistdepth=\count302
+\exam@FrameRule=\dimen142
+\exam@FrameSep=\dimen143
+)
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics\gra
+phicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics\key
+val.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics\gra
+phics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics\tri
+g.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics-cfg
+\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics-def
+\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/geometry\geo
+metry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/generic/iftex\ifvt
+ex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/generic/iftex\ifte
+x.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count303
+\Gm@cntv=\count304
+\c@Gm@tempcnt=\count305
+\Gm@bindingoffset=\dimen146
+\Gm@wd@mp=\dimen147
+\Gm@odd@mp=\dimen148
+\Gm@even@mp=\dimen149
+\Gm@layoutwidth=\dimen150
+\Gm@layoutheight=\dimen151
+\Gm@layouthoffset=\dimen152
+\Gm@layoutvoffset=\dimen153
+\Gm@dimlist=\toks23
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/geometry\geo
+metry.cfg))
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/ulem\ulem.st
+y
+\UL@box=\box52
+\UL@hyphenbox=\box53
+\UL@skip=\skip75
+\UL@hook=\toks24
+\UL@height=\dimen154
+\UL@pe=\count306
+\UL@pixel=\dimen155
+\ULC@box=\box54
+Package: ulem 2019/11/18
+\ULdepth=\dimen156
+)
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/comment\comm
+ent.sty
+\CommentStream=\write3
+ Excluding comment 'comment')
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/amsmath\amsm
+ath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip76
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/amsmath\amst
+ext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/amsmath\amsg
+en.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen157
+))
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/amsmath\amsb
+sy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen158
+)
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/amsmath\amso
+pn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count307
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count308
+\leftroot@=\count309
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count310
+\DOTSCASE@=\count311
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen159
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count312
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count313
+\dotsspace@=\muskip16
+\c@parentequation=\count314
+\dspbrk@lvl=\count315
+\tag@help=\toks26
+\row@=\count316
+\column@=\count317
+\maxfields@=\count318
+\andhelp@=\toks27
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks28
+\multlinegap=\skip77
+\multlinetaggap=\skip78
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/float\float.
+sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count319
+\float@exts=\toks30
+\float@box=\box57
+\@float@everytoks=\toks31
+\@floatcapt=\box58
+)
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/l3backend\l3
+backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count320
+\l__pdf_internal_box=\box59
+) (c:\Users\adhtr\src\CV_asg\asg1\tex_build\Answer.aux)
+\openout1 = `Answer.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/context/base/mkii\
+supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count321
+\scratchdimen=\dimen166
+\scratchbox=\box60
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen167
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks33
+)
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/epstopdf-pkg
+\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\adhtr\scoop\apps\miktex\current\texmfs\install\tex/latex/00miktex\eps
+topdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(57.81621pt, 448.07378pt, 91.61789pt)
+* v-part:(T,H,B)=(50.58878pt, 722.7pt, 71.75807pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=448.07378pt
+* \textheight=722.7pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.68121pt
+* \headheight=15.0pt
+* \headsep=15.0pt
+* \topskip=12.0pt
+* \footskip=29.0pt
+* \marginparwidth=36.135pt
+* \marginparsep=5.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<res/iiserb_logo.png, id=1, 452.69125pt x 555.07375pt>
+File: res/iiserb_logo.png Graphic file (type png)
+<use res/iiserb_logo.png>
+Package pdftex.def Info: res/iiserb_logo.png  used on input line 17.
+(pdftex.def)             Requested size: 80.65831pt x 98.8926pt.
+
+Overfull \hbox (35.8482pt too wide) in paragraph at lines 16--18
+[] 
+ []
+
+(tex/answer1.tex
+<res/1_prewitt.png, id=3, 573.8238pt x 284.7438pt>
+File: res/1_prewitt.png Graphic file (type png)
+<use res/1_prewitt.png>
+Package pdftex.def Info: res/1_prewitt.png  used on input line 22.
+(pdftex.def)             Requested size: 474.9571pt x 235.68556pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 22--23
+[][] 
+ []
+
+[1
+
+{C:/Users/adhtr/scoop/apps/miktex/current/texmfs/data/fonts/map/pdftex/pdftex.m
+ap} <./res/iiserb_logo.png>]
+<res/1_5_by_5.png, id=18, 573.8238pt x 284.7438pt>
+File: res/1_5_by_5.png Graphic file (type png)
+<use res/1_5_by_5.png>
+Package pdftex.def Info: res/1_5_by_5.png  used on input line 55.
+(pdftex.def)             Requested size: 474.9571pt x 235.68556pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 55--56
+[][] 
+ []
+
+[2 <./res/1_prewitt.png>]) [3 <./res/1_5_by_5.png>] (tex/answer2.tex
+<res/2a_sobel.png, id=28, 573.8238pt x 284.7438pt>
+File: res/2a_sobel.png Graphic file (type png)
+<use res/2a_sobel.png>
+Package pdftex.def Info: res/2a_sobel.png  used on input line 26.
+(pdftex.def)             Requested size: 474.9571pt x 235.68556pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 26--27
+[][] 
+ []
+
+[4]
+<res/2a_5_by_5.png, id=32, 573.8238pt x 284.7438pt>
+File: res/2a_5_by_5.png Graphic file (type png)
+<use res/2a_5_by_5.png>
+Package pdftex.def Info: res/2a_5_by_5.png  used on input line 56.
+(pdftex.def)             Requested size: 474.9571pt x 235.68556pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 56--57
+[][] 
+ []
+
+[5 <./res/2a_sobel.png>]
+<res/2a_gradient.png, id=37, 854.2314pt x 277.5168pt>
+File: res/2a_gradient.png Graphic file (type png)
+<use res/2a_gradient.png>
+Package pdftex.def Info: res/2a_gradient.png  used on input line 74.
+(pdftex.def)             Requested size: 474.9571pt x 154.29889pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 74--75
+[][] 
+ []
+
+[6 <./res/2a_5_by_5.png> <./res/2a_gradient.png>]
+<res/2c_3by3.png, id=44, 1134.639pt x 273.9033pt>
+File: res/2c_3by3.png Graphic file (type png)
+<use res/2c_3by3.png>
+Package pdftex.def Info: res/2c_3by3.png  used on input line 97.
+(pdftex.def)             Requested size: 474.9571pt x 114.65408pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 97--98
+[][] 
+ []
+
+<res/2c_5by5.png, id=45, 1134.639pt x 273.9033pt>
+File: res/2c_5by5.png Graphic file (type png)
+<use res/2c_5by5.png>
+Package pdftex.def Info: res/2c_5by5.png  used on input line 103.
+(pdftex.def)             Requested size: 474.9571pt x 114.65408pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 103--104
+[][] 
+ []
+
+<res/2d_noise.png, id=46, 1134.639pt x 273.9033pt>
+File: res/2d_noise.png Graphic file (type png)
+<use res/2d_noise.png>
+Package pdftex.def Info: res/2d_noise.png  used on input line 117.
+(pdftex.def)             Requested size: 474.9571pt x 114.65408pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 117--118
+[][] 
+ []
+
+[7 <./res/2c_3by3.png> <./res/2c_5by5.png> <./res/2d_noise.png>]
+<res/2d_3by3.png, id=54, 1134.639pt x 275.3487pt>
+File: res/2d_3by3.png Graphic file (type png)
+<use res/2d_3by3.png>
+Package pdftex.def Info: res/2d_3by3.png  used on input line 127.
+(pdftex.def)             Requested size: 474.9571pt x 115.25911pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 127--128
+[][] 
+ []
+
+<res/2d_5by5.png, id=55, 1134.639pt x 275.3487pt>
+File: res/2d_5by5.png Graphic file (type png)
+<use res/2d_5by5.png>
+Package pdftex.def Info: res/2d_5by5.png  used on input line 134.
+(pdftex.def)             Requested size: 474.9571pt x 115.25911pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 134--135
+[][] 
+ []
+
+) [8 <./res/2d_3by3.png> <./res/2d_5by5.png>] (tex/answer3.tex
+<res/3a_gaussian.png, id=61, 291.9708pt x 308.5929pt>
+File: res/3a_gaussian.png Graphic file (type png)
+<use res/3a_gaussian.png>
+Package pdftex.def Info: res/3a_gaussian.png  used on input line 18.
+(pdftex.def)             Requested size: 224.03688pt x 236.78851pt.
+ [9 <./res/3a_gaussian.png>]
+<res/3b_laplacian.png, id=66, 854.2314pt x 277.5168pt>
+File: res/3b_laplacian.png Graphic file (type png)
+<use res/3b_laplacian.png>
+Package pdftex.def Info: res/3b_laplacian.png  used on input line 42.
+(pdftex.def)             Requested size: 474.9571pt x 154.29889pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 42--43
+ [][] 
+ []
+
+<res/3b_zero_crossing.png, id=67, 854.2314pt x 581.0508pt>
+File: res/3b_zero_crossing.png Graphic file (type png)
+<use res/3b_zero_crossing.png>
+Package pdftex.def Info: res/3b_zero_crossing.png  used on input line 55.
+(pdftex.def)             Requested size: 474.9571pt x 323.06331pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 55--56
+ [][] 
+ []
+
+[10 <./res/3b_laplacian.png>]
+<res/3b_zero_crossing_log.png, id=73, 854.2314pt x 277.5168pt>
+File: res/3b_zero_crossing_log.png Graphic file (type png)
+<use res/3b_zero_crossing_log.png>
+Package pdftex.def Info: res/3b_zero_crossing_log.png  used on input line 68.
+(pdftex.def)             Requested size: 474.9571pt x 154.29889pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 68--69
+ [][] 
+ []
+
+[11 <./res/3b_zero_crossing.png> <./res/3b_zero_crossing_log.png>]
+<res/3c_log_vs_lap.png, id=79, 854.2314pt x 581.0508pt>
+File: res/3c_log_vs_lap.png Graphic file (type png)
+<use res/3c_log_vs_lap.png>
+Package pdftex.def Info: res/3c_log_vs_lap.png  used on input line 79.
+(pdftex.def)             Requested size: 474.9571pt x 323.06331pt.
+
+Overfull \hbox (26.88333pt too wide) in paragraph at lines 79--80
+ [][] 
+ []
+
+) [12 <./res/3c_log_vs_lap.png>]
+This exam contains 3 questions with 7 parts, 0 subparts, and 0 subsubparts.
+(c:\Users\adhtr\src\CV_asg\asg1\tex_build\Answer.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 4081 strings out of 474486
+ 64159 string characters out of 5738545
+ 1944542 words of memory out of 5000000
+ 26339 multiletter control sequences out of 15000+600000
+ 563801 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,11n,65p,520b,381s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\adhtr\scoop\apps\miktex\current\texmfs/data\fonts/pk/ljfour/jknapp
+en/ec/dpi600\tcrm1200.pk><C:/Users/adhtr/scoop/apps/miktex/current/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/adhtr/scoop/apps/miktex/
+current/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/adht
+r/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxt
+i10.pfb><C:/Users/adhtr/scoop/apps/miktex/current/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><C:/Users/adhtr/scoop/apps/miktex/current/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/adhtr/scoop/apps/mikt
+ex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ad
+htr/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><C:/Users/adhtr/scoop/apps/miktex/current/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Users/adhtr/scoop/apps/miktex/current/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/adhtr/scoop/apps/miktex/c
+urrent/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/adhtr
+/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb>
+Output written on c:\Users\adhtr\src\CV_asg\asg1\tex_build\Answer.pdf (12 pages
+, 5072931 bytes).
+PDF statistics:
+ 134 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+

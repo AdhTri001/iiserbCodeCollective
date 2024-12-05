@@ -13,3 +13,12 @@ An event organized by Math department of iiserb, with verious of activities
 # Ignite
 
 Another hackathon organized by coding club of iiserb as a pre-event for armacode.
+
+# CV Assignments
+
+The instructor was tough. Dropping the assignment code here for helping out future kids :)
+It implements CV algorithms from scratch.
+
+# ML Assignments
+
+Use K-means in the second assignment btw.

@@ -1,0 +1,169 @@
+\documentclass[12pt, a4paper]{exam}
+\usepackage{graphicx}
+\usepackage[left=0.8in, top=0.7in, total={6.2in,10in}]{geometry}
+\usepackage[normalem]{ulem}
+\usepackage{comment}
+\usepackage{amsmath}
+\usepackage{float}
+
+\renewcommand\ULthickness{1.0pt}   %%---> For changing thickness of underline
+\setlength\ULdepth{1.3ex}%\maxdimen ---> For changing depth of underline
+
+%% HEADER
+\begin{document}
+	\noindent
+	\begin{minipage}[l]{0.1\textwidth}
+		\noindent
+		\includegraphics[width=1.8\textwidth]{res/iiserb_logo.png}
+	\end{minipage}
+\hfill
+\begin{minipage}[c]{0.8\textwidth}
+	\begin{center}
+		{\large	Indian Institute of Science Education and Research Bhopal \par
+		\large	\par
+	\large \textbf{	Computer Vision( DSE/EECS-312)}	\par
+\small	Assignment-1: Answer Sheet}
+	\end{center}
+\end{minipage}
+
+%% FIELDS AND INSTRUCTIONS
+\par
+\vspace{0.2in}
+\noindent
+\textbf{Name: }Adheesh Trivedi\\
+\noindent
+\textbf{Roll No.:  }22016\\
+\noindent
+\uline{\textbf{Time of submission: } \hfill 		\hfill Marks Obtained: } \\
+\uline{Please follow the instructions given in the assignment carefully. \hfill}
+\par 
+\vspace{0.15in}
+\noindent
+\centering
+{\small \bfseries  Please provide your detailed answers and any explanations or diagrams directly below each question in the 'Answers' section. }
+
+%% QUESTIONS
+\vspace{0.2in}
+\begin{questions}
+	\pointsdroppedatright
+
+%% QUESTION 1
+	\question
+Apply the filters mentioned below on the image attached and analyze their impact.
+Describe what you found after applying each filter
+and why certain phenomena are happening. \textbf{\textit{(Marks: )}}\\
+
+\begin{enumerate}
+
+\item \begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+-1 & 0 & 1 \\ \hline
+-1 & 0 & 1 \\ \hline
+-1 & 0 & 1 \\ \hline
+\end{tabular}
+\end{center}
+
+\item \begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+1 & 1 & 1 \\ \hline
+0 & 0 & 0 \\ \hline
+-1 & -1 & -1 \\ \hline
+\end{tabular}
+\end{center}
+
+\end{enumerate}
+
+Since the above filters are of dimension $3 \times 3$. Construct the same filters of dimension $5 \times 5$ and do the above experiments.
+\vspace{0.2in}
+    \pointsdroppedatright\\
+
+%% ANSWER 1
+\textbf{Answer:}
+
+\textbf{Prewitt filter (3 by 3)}
+
+\input{tex/answer1.tex}
+
+\vspace{0.2in}
+
+\newpage
+%% QUESTION 2
+	\question
+ Sobel Edge Detection Implementation. \textbf{\textit{(Marks: )}}
+\begin{parts}
+    \part[9] Write a Python function to apply the Sobel filter given below to detect edges along the x-direction and y-direction. Combine these to compute the gradient magnitude image.
+    \begin{enumerate}
+
+        \item \begin{tabular}{|c|c|c|}
+\hline
+-1 & 0 & 1 \\ \hline
+-2 & 0 & 2 \\ \hline
+-1 & 0 & 1 \\ \hline
+\end{tabular} 
+\item \begin{tabular}{|c|c|c|}
+\hline
+1 & 2 & 1 \\ \hline
+0 & 0 & 0 \\ \hline
+-1 & -2 & -1 \\ \hline
+\end{tabular} 
+\item \begin{tabular}{|c|c|c|c|c|}
+\hline
+1 & 2 & 3 & 2 & 1 \\ \hline
+2 & 3 & 5  & 3 & 2 \\ \hline
+0 & 0 & 0 & 0 & 0 \\ \hline
+-2 & -3 & -5  & -3 & -2 \\ \hline
+-1 & -2 & -3 & -2 & -1 \\ \hline
+\end{tabular}
+\item \begin{tabular}{|c|c|c|c|c|}
+\hline
+-1 & -2 & 0 & 2 & 1 \\ \hline
+-2 & -3 & 0 &   3 & 2 \\ \hline
+-3 & -5 & 0 & 5 & 3 \\ \hline
+-2 & -3 & 0 & 3 & 2  \\ \hline
+-1 & -2 & 0 & 2 & 1 \\ \hline
+\end{tabular}
+
+    \end{enumerate}
+    \vspace{0.05in}
+    \part[9] Apply your function to an image and display the gradient magnitude image alongside the original. Vary the size of the kernel and document the effects.
+    \vspace{0.05in}
+    \part[9] Manually implement thresholding on the gradient magnitude to create a binary edge image. Experiment with different thresholds and show the results.
+    \vspace{0.05in} 
+    \part[9] Apply the Sobel edge detector on a noisy image (you may add synthetic noise to an attached clean image). Discuss how noise affects edge detection and the visual quality of the output images.
+\end{parts}
+
+\vspace{0.2in}
+\pointsdroppedatright
+
+%% ANSWER 2
+\textbf{Answer:}
+
+\input{tex/answer2.tex}
+
+\vspace{0.2in}
+\newpage
+%% QUESTION 3
+	\question
+Laplacian of Gaussian Edge Detection (follow the class notes).  \textbf{\textit{(Marks: )}}
+\begin{parts}
+    \part[9] Implement Gaussian smoothing from scratch. Apply your Gaussian filter given below to smooth an image before edge detection.
+
+    \vspace{0.05in}
+    \part[9] Develop the Laplacian filter and apply it to the smoothed image from 3 (a) to detect edges via zero-crossings. Describe how you detect zero-crossings in your implementation.
+    \vspace{0.05in}
+    \part[9] Display the edges detected from the smoothed image alongside the edges detected from the non-smoothed image. Discuss the differences and the impact of noise.
+\end{parts}
+\vspace{0.2in}
+
+%% ANSWER 3
+\textbf{Answer:}
+
+\input{tex/answer3.tex}
+
+\vspace{0.2in}
+
+\end{questions}
+
+\end{document}

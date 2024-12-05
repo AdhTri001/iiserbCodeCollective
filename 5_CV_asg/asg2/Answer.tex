@@ -1,0 +1,73 @@
+\documentclass[12pt, a4paper]{exam}
+\usepackage{graphicx}
+\usepackage[left=0.8in, top=0.7in, total={6.2in,10in}]{geometry}
+\usepackage[normalem]{ulem}
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{float}
+
+\renewcommand\ULthickness{1.0pt}   %%---> For changing thickness of underline
+\setlength\ULdepth{1.3ex}%\maxdimen ---> For changing depth of underline
+
+\begin{document}
+	%\thispagestyle{empty}
+	\noindent
+	\begin{minipage}[l]{0.1\textwidth}
+		\noindent
+		\includegraphics[width=1.8\textwidth]{imgs/iiserb_logo.png}
+	\end{minipage}
+\hfill
+\begin{minipage}[c]{0.8\textwidth}
+	\begin{center}
+		{\large	Indian Institute of Science Education and Research Bhopal \par
+		\large	\par
+	\large \textbf{	Computer Vision(DSE-312/EECS-320)}	\par
+\small	Assignment-2}
+	\end{center}
+\end{minipage}
+
+\par
+\vspace{0.2in}
+\noindent
+\textbf{Name: }\\
+\noindent
+\textbf{Roll No.:  }\\
+\noindent
+\uline{\textbf{Time of submission: } \hfill 		\hfill Marks Obtained: } \\
+\uline{Please follow the instructions given in the assignment carefully.}
+\par 
+\vspace{0.15in}
+\noindent
+\centering
+{\small \bfseries  Please provide your detailed answers and any explanations or diagrams directly below each question in the `Answers' section. }
+\vspace{0.2in}
+\begin{questions}
+	\pointsdroppedatright
+	\question
+Implement a face detection algorithm from scratch using Haar-like features and Integral Image computation. \textbf{\textit{(Marks: 1+2+7 )}}
+\begin{itemize}
+    \item Capture an image of yourself using a webcam or upload a face image.
+    \item Compute the Integral Image to efficiently calculate pixel sums over rectangular regions. Use integral image to detect face using Haar features.
+\end{itemize}
+
+\vspace{0.2in}
+	\pointsdroppedatright 
+\textbf{Answer:}
+
+\input{tex/answer1.tex}
+	
+\question Using dataset \href{https://drive.google.com/drive/folders/1OW_1bawO79pRqdVEVmBzp8HSxdSwln_Z?usp=sharing}{\textbf{link}}, implement a face anti-spoofing model that performs classification based on the below different feature extraction methods to identify fake (spoof) and real image. Compare and analyze your results using metrics accuracy, f1-score, precision, recall and confusion matrix. Document the findings and discuss the failure and success of each method. (\textit{Note: You have to use only 1000 images and not the whole dataset})  \textbf{\textit{(Marks: 3+3+4 )}}
+ \begin{parts}
+    \part[9] Using the raw pixel values of the face images as features. Train a Support Vector Machine (SVM) classifier on these raw pixel features to perform face recognition. Evaluate and analyze the performance of the model on the dataset.
+    \part[9] Extract Local Binary Patterns (LBP) features from the face images for feature extraction. Train an SVM classifier using the LBP features to perform face recognition. 
+     \part[9] Compute edge images using any two edge detectors (canny, sobel, prewitt, etc.), then use them as input features independently to train an SVM classifier and perform classification.
+  \end{parts}    
+\vspace{0.2in}
+	\pointsdroppedatright 
+\textbf{Answer:}
+
+\input{tex/answer2.tex}
+
+\end{questions}
+
+\end{document}

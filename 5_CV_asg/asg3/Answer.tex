@@ -1,0 +1,105 @@
+\documentclass[12pt, a4paper]{exam}
+\usepackage{graphicx}
+\usepackage[left=0.8in, top=0.7in, total={6.2in,10in}]{geometry}
+\usepackage[normalem]{ulem}
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{float}
+
+\renewcommand\ULthickness{1.0pt}   %%---> For changing thickness of underline
+\setlength\ULdepth{1.3ex}%\maxdimen ---> For changing depth of underline
+
+\begin{document}
+	%\thispagestyle{empty}
+	\noindent
+	\begin{minipage}[l]{0.1\textwidth}
+		\noindent
+		\includegraphics[width=1.8\textwidth]{res/iiserb_logo.png}
+	\end{minipage}
+\hfill
+\begin{minipage}[c]{0.8\textwidth}
+	\begin{center}
+		{\large	Indian Institute of Science Education and Research Bhopal \par
+		\large	\par
+	\large \textbf{	Computer Vision(DSE-312/EECS-320)}	\par
+\small	Assignment-2}
+	\end{center}
+\end{minipage}
+
+\par
+\vspace{0.2in}
+\noindent
+\textbf{Name: }Adheesh Trivedi\\
+\noindent
+\textbf{Roll No.:  }22016\\
+\noindent
+\uline{\textbf{Time of submission: } \hfill 		\hfill Marks Obtained: } \\
+\uline{Please follow the instructions given in the assignment carefully.}
+\par 
+\vspace{0.15in}
+\noindent
+\centering
+{\small \bfseries
+\begin{enumerate}
+    \item All questions are mandatory. Plagiarism and copying from anywhere (similar
+    submission) can debar you from this course and invite the academic dishon-
+    esty policy.
+    \item Implement all algorithms purely in Python without using specialized libraries
+    like OpenCV or PIL for the processing. You may use libraries for basic
+    operations (like loading an image), but the algorithms should be coded from
+    scratch.
+    \item Comment on your code extensively to explain your logic and the steps you
+    are implementing.
+    \item Display both the original and processed images to compare results.
+    \item Make a short 7-minute video and explain your code.
+    \item A report reflecting on what you have learned. Visualization of the output
+    must be there along with other necessary details.
+\end{enumerate}
+}
+
+\vspace{0.2in}
+\begin{questions}
+	\pointsdroppedatright
+	\question
+
+Apply the filters mentioned below on the image attached and analyze their impact.
+Describe what you found after applying each filter and why certain phenomena
+occur. \textbf{\textit{(Marks:6)}}
+\begin{itemize}
+    \item SIFT
+    \item Bag of Words
+    \item HOG
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.3\textwidth]{res/Albert_Einstein.jpg}
+    \caption{Image of Albert Einstein}
+    \label{fig:1q}
+\end{figure}
+
+\vspace{0.2in}
+	\pointsdroppedatright 
+\textbf{Answer:}
+
+\input{tex/answer1.tex}
+
+\newpage
+\question
+
+Imagine you’re monitoring pedestrian movement at a crosswalk. Your task is to track the direction and speed of pedestrians in a video using optical flow analysis. Use OpenCV’s built-in video vtest.avi, which simulates real-world pedestrian movement. \textbf{\textit{(Marks: 6 )}}
+
+\begin{itemize}
+    \item Using the Lucas-Kanade method, track specific points in the video to capture the movement of pedestrians.
+    \item Visualize the direction of movement using arrows to indicate the flow direction at each point.
+    \item Provide a brief summary: What patterns do you observe in pedestrian movement? Are there any areas where pedestrians tend to cluster or move faster?
+\end{itemize}
+\vspace{0.2in}
+	\pointsdroppedatright 
+\textbf{Answer:}
+
+\input{tex/answer2.tex}
+
+\end{questions}
+
+\end{document}
