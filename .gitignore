@@ -1,5 +1,5 @@
-/**/media/
-/**/__pycache__/
+__pycache__/
 .vscode/
 .idea/
-/**/build/
+build/
+tex_build/
